@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+
+    <style>
+
+        .parent{
+            height: 300px;
+            width: 800px;
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            position: relative;
+            background-image: linear-gradient(aqua,whitesmoke,pink);         
+            border-radius: 10px;
+        }
+        .parent:hover{
+            box-shadow: 1px 10px 20px black;
+        }
+
+        .child{
+            height: 200px;
+            width: 150px;
+            border: 2px;
+            border-color: black;
+            border-style: solid;
+           position: absolute;
+           background-color: white;
+           border-radius: 10px;
+
+           
+        }
+        .child:hover{
+            box-shadow: 10px 10px 15px black;
+        }
+
+
+        .one{
+            /* margin-top: 50px;
+            margin-left:50px ; */
+            top:50px;
+            left:50px;
+            
+        }
+
+        .two{
+           left: 294px;
+           top:50px;
+           /* margin-top: 50px;
+           margin-left:100px; */
+        }
+
+        .three{
+           left: 567px; 
+           top:50px;
+           /* margin-top: 50px;
+           margin-left:50px ; */
+        }
+.img1{
+    height: 100px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-image: url(/bgimg/download.jfif);
+
+}
+.img2{
+    height: 100px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-image: url(/bgimg/download\ \(1\).jfif);
+    
+}
+.img3{
+    height: 100px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-image: url(/bgimg/download\ \(2\).jfif);
+    
+}
+
+.content{
+    height: 80px;
+    width:145px;
+    overflow: auto;
+}
+
+    
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <!-- div 1 -->
+        <div class="child one">
+             <div class="img1"></div>
+            <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur explicabo aut ipsum omnis obcaecati voluptate asperiores accusantium provident exercitationem, sapiente quod quaerat, deserunt est eum non consectetur laudantium animi, ipsam sit consequuntur. Facilis nesciunt quas ut vero minima. Aut hic id cum iure voluptatibus, expedita nam laudantium obcaecati iusto iste.</div> 
+        </div>
+       
+        <!-- div 2 -->
+        <div class="child two">
+             <div class="img2"></div>
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur qui minus porro atque ipsa sunt architecto eaque, officiis illum officia rem eos maiores corporis quae laboriosam est, earum libero non dolore saepe quia asperiores eligendi! Exercitationem est inventore nemo provident fuga nobis totam beatae deleniti rem consequuntur, non amet repellendus!</div> 
+        </div>
+       
+        <!-- div 3 -->
+        <div class="child three">
+             <div class="img3"></div>
+            <div class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta dicta ratione quisquam minus impedit consequuntur ipsum quam sapiente, vero ut eius voluptatum velit ex optio in animi minima unde nostrum laudantium, natus cum repellendus beatae laboriosam. Blanditiis quo totam excepturi laboriosam? Beatae aspernatur nihil ipsa asperiores praesentium dolores eaque.</div> 
+        </div>
+
+    </div>
+</body>
+</html>

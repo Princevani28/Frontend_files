@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index property</title>
+
+    <style>
+        .one{
+            height: 200px;
+            width: 200px;
+            border: 3px;
+            background-color: red;
+            border-style: solid;
+            border-color: black;
+            position:absolute;
+            /* z index starts with 0 and it give position at 1 to this div */
+            z-index: 1;
+
+        }
+
+        .two{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            border-style: solid;
+            border-color: black;
+            position:absolute;
+            /* z index starts with 0 and it give position at 2 to this div */
+            z-index: 2;
+        
+        }
+
+        .three{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            border-style: solid;
+            border-color: black;
+            position:absolute;
+            /* z index starts with 0 and it give position at 0 to this div bydefault */
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <!--  Z-index property are used to control the div . It work as a stack . we can give postion as well to control the div -->
+    
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+</body>
+</html>

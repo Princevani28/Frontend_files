@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animination</title>
+
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            position: absolute;
+            animation-name: div;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-timing-function:linear;
+        }
+            @keyframes div {
+                 /*  There are two ways for define the the values :-
+                 to and from 
+                  from{
+                    changes
+                 }
+                 to{
+                    changes
+                 }
+                
+                 and second is by percentage */
+
+                0%{
+                    top:0px;
+                    left: 0px;
+                    background-color:blue;
+                    box: shadow 10px;
+                    border:2px;
+                    border-color:black;
+                    border-style:solid;
+
+                }
+                25%{
+                    top:0px;
+                    left:500px;
+                    background-color:orange;
+                    box: shadow 20px;
+                    border:5px;
+                    border-color:green;
+                    border-style:solid;
+
+                }
+                50%{
+                    top:500px;
+                    left: 500px;
+                    background-color:green;
+                    box: shadow 30px;
+                    border:1px;
+                    border-color:white;
+                    border-style:solid;
+                }
+                100%{
+                    top: 500px;
+                    left: 0px;
+                    background-color:yellow;
+                    box: shadow 40px;
+                    border:15
+                    px;
+                    border-color:green;
+                    border-style:solid;
+
+                }
+            }
+        
+        div:hover{
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div></div>
+    
+</body>
+</html>

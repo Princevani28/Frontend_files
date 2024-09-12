@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Js Validation</title>
+    <style>
+        *{
+            font-family: 'quicksand', sans-serif;
+        }
+        .main {
+    height: 530px;
+    width: 500px;
+    border: 2px solid black;
+    position: absolute;
+    left: 484px;
+    top: 65px;
+    background-color: black;
+    padding-bottom: 50px;
+    border-radius: 6px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+::placeholder{
+    padding-left: 5px;
+}
+
+input {
+    margin-bottom: 26px;
+    height: 35px;
+    width: 389px;
+    margin-left: 44px;
+    background-color: #333;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    color: #0f0;
+    font-size: 40px;
+}
+.fpass{
+    margin-left: 46px;
+    color: white;
+    text-decoration: none;
+}
+.sign-in{
+    margin-left: 215px;
+    color: #0f0;
+    text-decoration: none;
+}
+
+.signup-btn {
+    text-decoration: none;
+    margin-left: 45px;
+    display: inline-block;
+    margin-top: 24px;
+    /* border: 2px solid white; */
+    width: 382px;
+    height: 40px;
+    background-color: #0f0;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 6px;
+    margin-top: 30px;
+    line-height: 36px;
+}
+
+p {
+    font-size: 5px;
+    position: relative;
+    font-size: 12px;
+    margin-left: 47px;
+    margin-top: -19px;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading">SIGN UP</h1>
+        <form onsubmit="valid()" >
+            <input type="text" placeholder="Username" id="uname" onkeyup="username()" > 
+            <p id="umsg"></p>
+           
+            <input type="password" placeholder="Password" id="pass" onkeyup="password()" >
+            <p id="pmsg"></p>
+           
+            <input type="password" placeholder="Confirm Password" id="cpass" required >
+            <p id="cpmsg"></p>
+            
+            <input type="email" placeholder="Email" id="email" required>
+            <p id="emsg"></p>
+            
+            <input type="text" placeholder="Phone Number" required >
+           
+            <span id="pnmsg"></span><br>
+        <a href="" class="fpass">Forgot Password</a>
+        <a href="" class="sign-in">Sign In</a>
+        <br>
+        <a href="" class="signup-btn" id="login">Login</a>
+
+        </form>
+
+    </div>
+    <script src="formCardValidation.js"></script>
+</body>
+</html>

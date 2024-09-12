@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    Mouse event 
+    :-
+    1.onclick
+    2.ondbclick
+    3.onmousenter
+    4.onmouseleave
+    5.onmousemove
+    6.onmouseover
+    7.onmouseup 
+    8.onmousedown
+    9.oncontextmenu
+    -->
+
+
+    <!-- Click  -->
+<button onclick="change()">Submit</button><br>
+
+<!-- Double click event -->
+<h1 id="new"></h1>
+<button ondblclick="dbclick()">Double Click </button>
+
+<!-- onmouseenter property -->
+ <h4 onmouseenter="trial()" id="test" onmouseleave="leave()">This is a heading</h4><br><br><br>
+
+<!-- oncontextmenu -->
+ <p id="one" oncontextmenu="rightClick()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa labore quaerat provident eligendi distinctio, nemo assumenda voluptate excepturi tenetur odio!</p>
+
+
+
+
+  <!--
+  Keyboard Event :-
+    1.onkeyup
+    2.onkeydown
+    3.onkeypress 
+    -->
+
+Name:<input type="text" id="two" onkeydown="down()" onkeyup="up()">
+
+
+
+    <script src="jsEvent.js"></script>
+</body>
+</html>

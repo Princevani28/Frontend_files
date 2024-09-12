@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="print"></h2>
+
+<!-- Function in Js :-
+
+1. With no paramter and no return value
+2. With paramter and no return value
+3. With no paramter and with return value
+4.With paramter and with return value
+
+-->
+
+<script>
+
+//  With no paramter and no return value function
+function msg(){       //declaration
+    console.log("Hii My name is Prince Vani");
+}
+msg()          // calling
+msg() 
+msg() 
+
+
+// With paramter and no return value
+function add(a,b){
+
+console.log(a+b);
+}
+add(20,10)
+
+//With no paramter and with return value
+function avg(){
+    return (10+5)/2
+}
+let a = avg();
+console.log(a);
+
+// With paramter and with return value
+function multiplication(x,y,z){
+    return x*y*z
+}
+
+let total = multiplication(10,15,47)
+console.log(total);
+
+
+function test(){
+    let num = Number(prompt("Enter the Number :-"))
+    if(num%2==0){
+       document.getElementById("print").innerHTML =  `${num} is even number`
+    }
+    else{
+        document.getElementById("print").innerHTML =`${num} is odd number`
+    }
+}
+
+test()
+
+
+// Arrow Function 
+
+const z = () =>{
+    return "Hello world"
+}
+let q=z()
+console.log(q);
+
+</script>  
+</body>
+</html>

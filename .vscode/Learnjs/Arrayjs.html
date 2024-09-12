@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    Array methods:-
+    1. length  // It is property
+    2.tostring
+    3.push
+    4.pop
+    5.unshift
+    6.shift
+    7.reverse
+    8.sort
+    9.map
+    10.filter
+    11.find
+    12.reduce
+    13.every
+    14.some
+    15. Slice
+    16.splice
+    -->
+</body>
+<script>
+
+    const arr = ["Prince", 1 ,4,true, "test"]
+
+    // length property :-
+    console.log(arr);      // It print the length with  items
+    console.log(arr.length);   // It only print the length
+
+    // change array items:-
+    arr[4]=false
+    console.log(arr);
+
+    // tostring method:-
+    console.log(arr.toString());
+
+    // Push method:-  It add the item from end . We can push multiple item using coma 
+    arr.push("mango","trial")
+    console.log(arr);
+
+    // Pop method:- It remove the item from the start
+    arr.pop()
+    console.log(arr);
+
+    //unshift method :- It add the item from start  . We can unshift multiple item using coma 
+    arr.unshift("gold","silver")
+    console.log(arr);
+
+    // shift :- It remove the item from the end 
+    arr.shift()
+    console.log(arr);
+
+
+    // Splice method :- It is used to add add or delete item from the array list
+   // syntax:- arr.splice(start position , delete, list of items for add)
+
+   // In this we add item without delete any item
+   arr.splice(2,0, "phone","cars")
+   console.log(arr);
+
+   // Delete the item and add the item
+   arr.splice(2,3,"Pineapple")   
+   console.log(arr);
+
+   // code for remove the item from the array
+   arr.splice(0,1)
+   console.log(arr);
+
+    // Slice method :- this method return new array so we need to store the return array into a new array
+
+    let x = arr.slice(2, 5)
+    console.log(x);
+
+
+    // Map Method:- It basically return the new array . It doesnot work on existing array
+    // syntax:- array_name.map (function)
+    // function_name(values,index,array){
+   
+   
+    // }
+
+const arr1 = [1,3,4,6,4,7,4]
+let arr2 = arr1.map(multiplication)
+function multiplication(values,index,array){
+    return values*10;
+}
+console.log(arr2);
+
+</script>
+</html>

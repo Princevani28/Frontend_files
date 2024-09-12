@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- Window Event:-
+    1.onload
+    2.oversize
+-->
+
+
+    <!-- 
+    Form Event :-
+    1.onfocus
+    2.onblur
+    3.onchange
+    4.onsubmit
+  -->
+
+<form onsubmit="submitme()" >
+  Name:<input type="text" id="Test" onfocus="focusme()" onblur="blurme()">
+  <br><br>
+
+  city:<select id="chnge" onchange="changeme()">
+    <option>Indore</option>
+    <option>Ujjain</option>
+    <option>Bhopal</option>
+    <option>Dewas</option>
+  </select>
+
+<h2 id="try"></h2>
+  <input type="submit">
+</form>
+
+    <script src="fromevent.js"></script>
+</body>
+</html>

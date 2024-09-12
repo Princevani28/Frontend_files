@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+nav {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: relative;
+    margin-top: 20px;
+}
+.btn1 {
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 42px;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.list li {
+    margin-right: 20px;
+}
+
+h3 {
+    margin: 0%;
+}
+
+body {
+    background-color: #2d3e50;
+    padding-bottom: 100px;
+
+}
+
+.content {
+
+    height: 200px;
+    width: 700px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+
+
+}
+
+.btn {
+    display: inline-block;
+}
+
+
+.d1 {
+    height: 285px;
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 15px;
+    
+}
+
+.d2 {
+    height: 285px;
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 15px;
+
+}
+
+.d3 {
+    height: 285px;
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+
+
+.banner-top-heading {
+    font-size: 58px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 25px;
+}
+.banner-content{
+    margin-top: 25px; 
+    font-size: 18px;
+    margin-bottom: 47px;
+}
+
+a.get-quote-btn {
+    text-decoration: none;
+    background-color: dodgerblue;
+    padding: 15px 21px;
+    border-radius: 6px;
+    color: white;
+}
+.learn-btn{
+    text-decoration: none;
+    background-color: #2d3e50;
+    padding: 15px 21px;
+    border-radius: 6px;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+
+
+}
+
+
+.icn1{
+    margin-top: 9px;
+    font-size: 46px;
+    /* height: 20px;
+    width: 20px; */
+    background-color: rgba(244, 69, 5, 0.737);
+    padding: 12px;
+    border-radius: 7px;
+    /* border-bottom: 2px solid orangered; */
+}
+
+ .icn2{
+    margin-top: 9px;
+    font-size: 46px;
+    background-color: lightgreen;
+    padding: 12px;
+    border-radius: 7px;
+} 
+
+
+.icn3{
+    margin-top: 9px;
+    font-size: 46px;
+    background-color: lightskyblue;
+    padding: 12px;
+    border-radius: 7px;
+} 
+
+.div-head{
+    margin-top: 23px;
+}

@@ -1,0 +1,78 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #2d3e50;
+    /* background: linear-gradient(aqua,whitesmoke,pink); */
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    
+}
+
+
+.main {
+    height: 500px;
+    width: 1312px;
+    border: 2px solid black;
+    /* background: linear-gradient(aqua,whitesmoke,pink); */
+    /* background-image: url(./prjimg/download\ \(3\).jfif); */
+    background-color: rgb(198, 203, 208);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 101px;
+    left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 13px;
+}
+
+
+.row{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* justify-content: center;
+    align-items: center; */
+    justify-content: space-around;
+    border-radius: 13px;
+    overflow: hidden;
+    
+    
+}
+.row:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.col1{
+    height: 181px;
+    width: 140px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    
+}
+.col2{
+    height: 181px;
+    width: 136px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+.col3{ height: 109px;
+    width: 245px;
+    /* border: 2px solid white; */
+    overflow: auto;
+    position: absolute;
+    direction: row;
+    top: 183px;
+    color: black;
+    margin-top: 1px;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listner</title>
+</head>
+<body>
+    <h1 id="h1"></h1>
+    <p id="p"></p>
+    <button id="btn">Click</button><br>
+
+    <p id="p1"></p>
+    <button id="btn1">Click Me</button>
+
+
+    <script>
+        // Click button 
+        document.getElementById("btn").addEventListener("click",function(){   // In event listner we need to pass the first the event and then write the callback function
+            document.getElementById("h1").innerHTML = "This is heading"
+             document.getElementById("p").innerHTML = "This is Paragraph"
+        })
+
+        // Second way to define :-
+        // function show() {
+        //      document.getElementById("h1").innerHTML = "This is heading"
+        //      document.getElementById("p").innerHTML = "This is Paragraph"
+        // }
+        // document.getElementById("btn").addEventListener("click",show)
+
+
+
+        // Click me button 
+document.getElementById("btn1").addEventListener("click",function(){
+    document.getElementById("p1").innerHTML += "This is effect display bcoz of click event <br>"
+
+})
+
+document.getElementById("btn1").addEventListener("mouseenter",function(){
+    document.getElementById("p1").innerHTML += "This is effect display bcoz of mouse enter <br>"
+
+})
+
+
+document.getElementById("btn1").addEventListener("mouseleave",function(){
+    document.getElementById("p1").innerHTML += "This is effect display bcoz of mouse Leave <br>"
+
+})
+
+    </script>
+</body>
+</html>

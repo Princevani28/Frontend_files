@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String methods</title>
+</head>
+<body>
+
+    <!-- 
+    string Methods:-
+    1.length // it is a property not a method
+    2.tolowercase()
+    3.touppercase()
+    4.includes()
+    5.trim()
+    6.trimstart()
+    7.trimEnd()
+    8.concat()
+    9.replace()
+    10.slice()
+    11.substring()
+    12.substr()
+    13.charAt
+    14.charCodeAt()
+    15.padStart()
+    16.padEnd()
+    17.split()
+    -->
+    
+<script>
+
+
+//Uppercase Method
+    let a="Prince"
+    console.log(a.toUpperCase())
+
+    //Lowercase Method
+ let b="PRINCE"
+ console.log(b.toLowerCase())
+
+// Includes() Method
+let x ="Today is holiday"
+console.log(x.includes("Today"))  // This method is case sensitive 
+
+//  Replace Method
+let c= "This is a html page and this html page is written in vscode edition"
+//  It is a casesensitive method
+// console.log(c.replace("Html","javascript"));      //no changes will appears bcoz it H is written in uppercase
+console.log(c.replace(/Html/gi,"Javascript"));    // We use regular experssion to do this . G stands for globally and i stands for the case insensitivity
+
+//Slice Method
+let fruit = "Apple,Mango,Banana,orange,pineapple"
+console.log(fruit);                 //print whole string
+console.log(fruit.slice(6,18));    //It print from the start to end which is given in the string values
+console.log(fruit.slice(6));       // It print the the string values from the starting string
+console.log(fruit.slice(-16,-10));  // It print the string in reverse order. In this terchnique inexing start from the -1
+console.log(fruit.slice(0,-1));      // It print the whole string after removing the last char of the string
+console.log(fruit.substring(6,18))  // substring method is similar to slice but the only difference is that it cannot work on negative values where the slice method is working on negative values as well
+console.log(fruit.substr(0,5));     // In this method we will pass the start point and end point or length (start,length)
+console.log(fruit.substr(-8,-1));  // substr method does not work on negative values
+console.log(fruit.charAt(6));       // This method show the character based on given index
+console.log(fruit.charCodeAt(2));  // This method show the ascii value of the character which is present based on the given index
+</script>
+
+</body>
+</html>

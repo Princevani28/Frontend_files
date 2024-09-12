@@ -1,0 +1,117 @@
+/* . is used for class and # is use for id */
+
+/* .one{
+    border-style: dashed;
+    border-width: 4px;
+    border-color: rgb(0, 255, 76);
+    width: 400px;
+    background-image:url(/bgimg/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two{
+    border-style: dashed;
+    border-width: 4px;
+    border-color: red;
+    width: 400px;
+    margin-left: 24%;
+    background-image: url(/bgimg/download\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three{
+    border-style: dashed;
+    border-width: 4px;
+    border-color: blue;
+    width: 400px;
+    margin-left: 48%;
+    background-image: url(/bgimg/download\ \(2\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+
+.one{
+
+    border-width: 2px;
+    border-style: solid;
+    width: 157px;
+    height: 160px;
+    background-image: url(/bgimg/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+}
+
+.two{
+    border-width: 2px;
+    border-style: solid;
+    width: 157px;
+    height: 160px;
+    position: relative;
+    left: 9.5%;
+    background-image: url(/bgimg/download\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+        
+   
+   
+}
+
+.three{
+    border-width: 2px;
+    border-style: solid;
+    width: 157px;
+    height: 160px;
+    position: relative;
+    left: 19%;
+    background-image: url(/bgimg/download\ \(2\).jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+}
+
+
+
+.div1{
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+
+.div2{
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    width: 50px;
+    left: 53px;
+    background-color: green;
+}
+
+
+.div3{
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    width: 50px;
+    left: 105px; 
+    background-color: blue;
+
+}

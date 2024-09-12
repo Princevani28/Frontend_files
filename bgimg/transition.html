@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Property</title>
+
+<style>
+
+
+/* Transiton function are used to see the effect based on the changing property  
+We have 4 value which are used for the transtion :- 
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+
+transition-timing-function are divided into 4 types :-moz-any()
+ ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+linear - specifies a transition effect with the same speed from start to end
+ease-in - specifies a transition effect with a slow start
+ease-out - specifies a transition effect with a slow end
+ease-in-out - specifies a transition effect with a slow start and end
+ 
+
+short hand technique :- transition (property to be change duration timing function transition delay)
+
+*/
+    div{
+        width: 200px;
+        height: 100px;
+        background-color: blueviolet;
+        transition-duration:2s;
+        transition-property: width , height, background-color;
+        transition-timing-function: linear;
+    }
+
+
+    div:hover{
+       width: 500px;
+       height: 300px;
+       background-color: aqua;
+    }
+</style>
+
+
+</head>
+<body>
+
+    <div></div>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+.one{
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+    height: 100px;
+    background-color: purple;
+    position:sticky;
+    left: 0%;
+}
+
+.two{
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+    height: 100px;
+    background-color: yellowgreen;
+    position:sticky;
+    left: 30%;
+
+
+}
+
+.three{
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+    height: 100px;
+    background-color: green;
+    position: sticky;
+   left:60%;
+
+}

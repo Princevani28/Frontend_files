@@ -1,0 +1,9 @@
+h1 {
+    color: hsl(250, 20%, 70%);
+}
+
+body {
+    background-image: url("https://media.assettype.com/outlooktraveller%2Fimport%2Foutlooktraveller%2Fpublic%2Fuploads%2Farticles%2Fexplore%2F2017%2F02%2Ffeatured-image-28.jpg?w=1200&auto=format%2Ccompress&fit=max");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

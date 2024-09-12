@@ -1,0 +1,445 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Nav css */
+.brd-logo {
+    text-decoration: none;
+    position: absolute;
+    left: 85px;
+    font-size: 34px;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+        
+    
+}
+
+/* Div 1 */
+.branding {
+    height: 470px;
+    width: 100%;
+    display: flex;
+   
+}
+.nav{
+    height: 25px;
+    width: 1500px;
+    margin-top: 20px;
+    
+
+}
+.ctnt_01 {
+    height: 470px;
+    width: 750px;
+    margin-left: 120px;
+    
+}
+.heading1 {
+    max-width: 373px;
+    margin-top: 70px;
+    font-size: 60px;
+}
+.title1 {
+    max-width: 538px;
+    margin-top: 23px;
+    font-style: italic;
+    font-size: 19px;
+}
+.title2 {
+    max-width: 400px;
+    margin-top: 13px;
+    font-style: italic;
+    font-size: 18px;
+}
+.btn1 {
+    margin-top: 20px;
+    width: 134px;
+    height: 35px;
+    border-radius: 21px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.img1{
+    height: 470px;
+    width: 750px;
+    background-image: url(./images/img2.png);
+    background-position: left top;
+    background-repeat: none;
+    background-size: cover;
+    
+} 
+
+
+/* Div 2 */
+.cateogry{
+    height: 370px;
+    width:100%;
+    display: flex;
+    color: white;
+    
+}
+
+.quality-ctnt{
+    height: 370px;
+    width: 100%;
+   background-color: black;
+}
+
+.growth-ctnt{
+    height: 370px;
+    width: 100%;
+    background-color: aqua;
+   
+}
+.competitive-ctn{
+    height: 370px;
+    width: 100%;
+    background-color: rgb(36, 185, 185); 
+}
+
+.cateogry-heading {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-size: 40px;
+}
+.cateogry-content {
+    max-width: 380px;
+    position: relative;
+    top: 120px;
+    left: 12%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* div 3 */
+.icn1{
+     margin-top: 9px; 
+    font-size: 60px;
+    height: 100px;
+    width: 90px;
+    color: black;
+    
+}
+
+.about{
+    height: 440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.about-logo {
+    height: 70px;
+    width: 75px;
+    margin-top: 72px;
+}
+.abt-company-heading {
+    font-size: 20px;
+    margin: 20px;
+}
+.about-content {
+    text-align: center;
+    max-width: 713px;
+    font-size: 18px;
+}
+.abt-btn {
+    width: 130px;
+    margin-top: 40px;
+    height: 25px;
+    margin-bottom: 72px;
+    cursor: pointer;
+}
+
+
+/* Div 4 */
+
+.content{
+    height: 600px;
+    width: 100%;
+     display: flex;
+}
+.ctnt-img{
+    height:600px;
+    width: 100%;
+    background-image: url(./images/section-img.png);
+    /* background-position: left top; */
+    background-repeat: none;
+    background-size: cover;
+}
+.ctnt-paragraph-section{
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    position: relative;
+}
+.ctnt-paragraph-heading {
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    max-width: 418px;
+    font-size: 42px;
+}
+
+.ctnt-paragraph {
+    position: absolute;
+    left: 70px;
+    top: 275px;
+    font-size: 20px;
+    max-width: 600px;
+}
+.ctnt-btn {
+    position: absolute;
+    left: 70px;
+    top: 490px;
+    width: 160px;
+    height: 35px;
+    border-radius: 24px;
+    color: aqua;
+    letter-spacing: 3px;
+    background-color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* div 5 */
+.services{
+    height: 800px;
+    width: 100%;
+    
+}
+.service-option{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    text-align: center;
+}
+.services-list{
+    height: 280px;
+    width: 400px;
+    flex-direction: column;
+    margin-left: 40px;   
+}
+.service-heading {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+.service-heading-title{
+    text-align: center;
+    margin: 20px;
+}
+.logo {
+    height: 66px;
+    width: 66px;
+    border-radius: 50px;
+    font-size: 35px;
+    padding-top: 10px;
+    background-color: aqua;
+    position: relative;
+    left: 42%;
+    top: 10px;
+    color: white;
+}
+.service-title{
+    position: relative;
+    top: 35px;
+}
+.service-ctnt{
+    position: relative;
+    top: 50px;
+    padding: 15px;
+    font-style: italic;
+}
+.service-btn {
+    position: relative;
+    left: 45%;
+    top: 25px;
+    width: 130px;
+    height: 23px;
+    border: 0.5px solid aqua;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/* Div 6 */
+.content2{
+    height: 550px;
+    width: 100%;
+    display: flex;
+
+}
+
+.ctnt2-content{
+    height: 550px;
+    width: 100%;
+    background-color:#80808045
+    
+
+}
+.ctnt2-image{
+    height: 550px;
+    width: 100%;
+    background-image: url(./images/ctnt2-img1.png);
+    background-repeat: none;
+    background-size: cover;
+}
+.ctnt2-heading {
+    position: relative;
+    top: 75px;
+    left: 118px;
+    font-size: 40px;
+    max-width: 463px;
+}
+.ctnt02-para1 {
+    position: relative;
+    top: 110px;
+    left: 118px;
+    max-width: 510px;
+    font-size: 18px;
+}
+.ctnt02-para2 {
+    position: relative;
+    top: 150px;
+    left: 118px;
+    max-width: 510px;
+    font-size: 15px;
+}
+button.ctnt2-btn {
+    position: relative;
+    top: 186px;
+    left: 118px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 30px;
+    background-color: aqua;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+/* Div 7 */
+.get-know{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;    
+
+}
+
+.get-know-ctnt {
+    color: white;
+    position: relative;
+    top: 45px;
+    left: 135px;
+    max-width: 930px;
+}
+
+.get-know-btn {
+    position: relative;
+    left: 1110px;
+    width: 120px;
+    height: 30px;
+    border-radius: 24px;
+    color: aqua;
+    outline: none;
+    border: none;
+}
+
+.business-market-content{
+    height: 500px;
+    width: 100%;
+}
+.BM-Content {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.BM-btn {
+    position: relative;
+    top: 328px;
+    width: 105px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 25px;
+    left: 46%;
+    letter-spacing: 1px;
+}
+
+
+/* Div 9 */
+.footer{
+    height: 100px;
+    width:100%;
+    background-color: black;
+
+}
+
+.footer-ctnt{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+.name{
+    text-decoration: none;
+    color: aqua;
+}
+
+@media only screen and (max-width:768px)
+{
+    html,body{
+        overflow-x: hidden;
+    }
+    /* .branding {
+        display: block;
+        height: 380px;
+    }
+    .service-option {
+        display: block;
+    }
+    .brd-logo {
+        left: 50px;
+    }
+
+    .heading1{
+        font-size: 50px;
+    margin-left: 32px;
+    }
+    .ctnt_01 {
+        margin-left: 5px;
+    }
+    .title1 {
+        max-width: 370px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .btn1{
+        margin-top: 40px;
+    text-align: center;
+    margin-left: 110px;
+    }
+    .img1{
+        height: 322px;
+ } */
+    
+}
