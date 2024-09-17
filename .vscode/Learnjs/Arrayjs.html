@@ -24,6 +24,9 @@
     14.some
     15. Slice
     16.splice
+    17.forEach method
+    18.indexof
+    19.lastindexof
     -->
 </body>
 <script>
@@ -108,8 +111,32 @@ let find = arr1.find(function(value){
 console.log(find);
 
 
+// Reduce method :- 
+const arr3=[5,7,6,2,2,5,5,42,8,55,84,"indore"]
+let sum = arr3.reduce((total,value,index,array)=>{        // total is a varaible. We can give any name . It basically take the inital or previous values
+    return total+value
+})
+console.log(sum);
 
+// Every Method :- Every method return true or false based on the condition . It check the condtion on all the values
+let every = arr3.every((value,index,array)=>{        
+    return value >6
+})
+console.log(every)
 
+// Some Method:- Some method return true or false based on the condition . It print true if any condtiobn gets true
+let some = arr3.some((value,index,array)=>{        
+    return value >55
+})
+console.log(some);
+
+console.log(arr3[arr3.length-1]);
+
+//  Indexof
+console.log(arr3.indexOf(42));
+
+//lastindexof
+console.log(arr3.lastIndexOf(5));
 
 
 </script>

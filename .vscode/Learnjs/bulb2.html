@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single button bul</title>
+    <style>
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <img src="./Pictureoff1.png" alt="" id="bulb" height="300px" width="300px"><br>
+        <button onclick="check()" id="btn">ON</button>
+    </div>
+    <script>
+
+        // Off is indicate by flag 1 and on is indicate by 0
+        let flag = 1
+        function check() {
+            if (flag == 1) {
+                document.getElementById("bulb").s
+                rc = "bulbon1.png"
+                document.getElementById("btn").innerHTML = "OFF"
+                flag = 0
+            } else {
+                document.getElementById("bulb").src = "Pictureoff1.png"
+                document.getElementById("btn").innerHTML = "ON"
+                flag = 1
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

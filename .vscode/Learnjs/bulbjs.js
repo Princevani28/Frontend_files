@@ -1,8 +1,8 @@
 function on(){
-    document.getElementById("bulb").src = "bulbon.jpg"
+    document.getElementById("bulb").src = "bulbon1.png"
 }
 
 
 function off(){
-    document.getElementById("bulb").src = "bulboff.png"
+    document.getElementById("bulb").src = "Pictureoff1.png"
 }

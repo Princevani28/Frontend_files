@@ -29,7 +29,9 @@
     width: 30%;
     height: 100px;
     background-color: green;
-    position: sticky;
+    position: sticky
+    
+    ;
    left:60%;
 
 }

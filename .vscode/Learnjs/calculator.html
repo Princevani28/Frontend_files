@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+       .main 
+       {
+    background-color: black;
+    height: 556px;
+    width: 365px;
+    padding: 20px;
+    
+    }
+    
+    .input {
+    height: 100px;
+    width: 361px;
+    background-color: black;
+    text-decoration: none;
+    outline: none;
+    border: none !important;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+}
+button {
+    height: 75px;
+    width: 76px;
+    background-color: #80808085;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.inc_btn {
+    width: 165px;
+}
+.colr-btn{
+    background-color:#c4542a
+}
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <input type="text" class="input" id="input1">
+        <div class="row">
+            <button class="inc_btn AC-btn" onclick="ac()">AC</button>
+            <button class="c-btn" onclick="clearme()">C</button>
+            <button class="colr-btn divide" onclick="show('/')">/</button>
+            
+        </div>
+        <div class="row">
+            <button class="seven-btn" onclick="show('7')">7</button>
+            <button class="eight-btn" onclick="show('8')">8</button>
+            <button class="nine-btn" onclick="show('9')">9</button>
+            <button class="colr-btn multiply" onclick="show('*')">*</button>
+        </div>
+        <div class="row">
+            <button class="four-btn" onclick="show('4')">4</button>
+            <button class="five-btn" onclick="show('5')">5</button>
+            <button class="six-btn" onclick="show('6')">6</button>
+            <button class="colr-btn subract" onclick="show('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="one-btn" onclick="show('1')">1</button>
+            <button class="two-btn" onclick="show('2')">2</button>
+            <button class="three-btn" onclick="show('3')">3</button>
+            <button class="colr-btn add" onclick="show('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="inc_btn zero-btn" onclick="show('0')">0</button>
+            <button class="dot" onclick="show('.')">.</button>
+            <button class="colr-btn equal total" onclick="calculation()">=</button>   
+        </div>
+
+    </div>
+    <script src="calculatorjs.js"></script>
+    
+</body>
+</html>
